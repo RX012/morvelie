@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1889856818373413');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1889856818373413&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <!-- UTMify Pixel -->
+   <script>
+  window.pixelId = "6a206ba5d2b35fd6ad8cb1fe";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+    <!-- UTMify Rastreamento Global -->
+    <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: sans-serif; color: #1a1a1a; }
+
+        /* Header Fixo */
+        header {
+            position: fixed; top: 0; width: 100%; height: 70px; background: white;
+            display: flex; justify-content: space-between; align-items: center; 
+            padding: 0 15px; z-index: 9999; border-bottom: 1px solid #eee;
+        }
+        .logo { width: 100px; }
+        .header-right { display: flex; align-items: center; gap: 15px; }
+        
+        .cart-icon { position: relative; font-size: 20px; }
+        .cart-count { 
+            position: absolute; top: -10px; right: -10px; background: red; 
+            color: white; font-size: 10px; border-radius: 50%; padding: 2px 5px; 
+        }
+
+        .btn-blue { 
+            background-color: #004DDB; color: white; padding: 8px 16px;
+            text-decoration: none; border-radius: 20px; font-size: 14px; font-weight: bold;
+        }
+
+        .main-content { padding-top: 70px; }
+        .hero-wrapper { position: relative; }
+        
+        .recently-viewed { 
+            position: absolute; right: 0; top: 50%; background: #000; color: white;
+            padding: 10px 5px; writing-mode: vertical-rl; border-radius: 5px 0 0 5px;
+            cursor: pointer; font-size: 12px;
+        }
+
+        .content-section { padding: 20px; text-align: center; }
+        .btn-label { background: #004DDB; color: white; padding: 5px 15px; display: inline-block; border-radius: 20px; margin-bottom: 10px; }
+        
+        /* Ajuste do Presente à esquerda */
+        .gift-section { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 15px 0; }
+        .gift-box { cursor: pointer; font-size: 30px; animation: bounce 2s infinite; }
+        @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+        
+        .headline { font-size: 1.8em; font-weight: 800; }
+        
+        .bonus-box { display: none; background: #f0f0f0; padding: 15px; margin: 15px auto; border-radius: 8px; position: relative; max-width: 300px; border: 1px solid #004DDB; }
+        .close-btn { position: absolute; top: 5px; left: 5px; cursor: pointer; font-weight: bold; color: red; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="morveli-Photoroom.png" alt="Logo" class="logo">
+        <div class="header-right">
+            <div class="cart-icon">🛒<span class="cart-count">1</span></div>
+            <a href="https://morvelishop.wixsite.com/loja-azul/_paylink/AZ7d742_" onclick="if(window.fbq){fbq('track', 'InitiatedCheckout');}" class="btn-blue">BUY NOW</a>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="hero-wrapper">
+            <img src="familia.jpg" alt="Família" style="width:100%">
+            <div class="recently-viewed">RECENTLY VIEWED ‹</div>
+        </div>
+
+        <section class="content-section">
+            <div class="btn-label">The AC You Deserve</div>
+            
+            <div class="gift-section">
+                <div class="gift-box" onclick="document.getElementById('bonus').style.display='block'">🎁</div>
+                <h1 class="headline">No Outdoor Unit Half the Energy</h1>
+            </div>
+
+            <div id="bonus" class="bonus-box">
+                <span class="close-btn" onclick="this.parentElement.style.display='none'">X</span>
+                <p>Seu código promocional: <b>Morveli2026</b></p>
+            </div>
+
+            <p style="margin: 20px 0;">Wall-mounted all-in-one design. Ditch the bulky outdoor unit and shocking electricity bills. 
+                Heating & cooling, DIY installation — now only €89,90</p>
+            <a href="https://morvelishop.wixsite.com/loja-azul/_paylink/AZ7d742_" onclick="if(window.fbq){fbq('track', 'InitiatedCheckout');}" class="btn-blue">BUY NOW</a>
+        </section>
+    </div>
+
+<section class="content-section" style="padding-top: 20px;">
+    <!-- Imagens Before & After -->
+    <div style="display: flex; gap: 15px; margin-bottom: 25px; align-items: center;">
+        <div style="flex: 1; text-align: center;">
+            <img src="before.jpg" alt="Before" style="width: 100%; border-radius: 12px; display: block;">
+            <p style="margin-top: 8px; font-weight: bold;">Before</p>
+        </div>
+        
+        <!-- Ícone de Play centralizado -->
+        <div style="font-size: 30px; color:  #004DDB; cursor: pointer;">▶</div>
+        
+        <div style="flex: 1; text-align: center;">
+            <img src="after.jpg" alt="After" style="width: 100%; border-radius: 12px; display: block;">
+            <p style="margin-top: 8px; font-weight: bold;">After</p>
+        </div>
+    </div>
+
+    <a href="https://morvelishop.wixsite.com/loja-azul/_paylink/AZ7d742_" onclick="if(window.fbq){fbq('track', 'InitiatedCheckout');}" style="background-color: #004DDB; color: white; padding: 15px 0; text-decoration: none; border-radius: 30px; font-size: 18px; font-weight: bold; display: block; width: 100%; margin-bottom: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <span style="margin-right: 8px;">⏰</span>BUY NOW
+    </a>
+
+    <!-- Texto de rodapé da seção -->
+    <p style="font-size: 1em; color: #555; margin-bottom: 40px;">Get Yours Before the Heatwave</p>
+
+    <!-- Título da próxima seção -->
+    <h2 class="headline" style="font-size: 1.6em; margin-bottom: 15px;">Tired of inconsistent temperatures and soaring energy bills?</h2>
+    <p style="margin-bottom: 20px;">Elevate your comfort. Lower your costs. Simply smarter.</p>
+</section>
+
+<!-- Componente de Prova Social Flutuante -->
+<div id="social-proof-toast" style="
+    position: fixed; 
+    bottom: 80px; 
+    left: 10px; 
+    z-index: 9999; 
+    background: #333; 
+    color: white; 
+    padding: 8px 15px; 
+    border-radius: 6px; 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    font-size: 13px; 
+    max-width: 90%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    animation: fadeInOut 5s infinite;
+">
+    <span style="font-size: 16px;">🛒</span>
+    <span id="proof-text">4***A Purchased recently</span>
+</div>
+
+<style>
+    @keyframes fadeInOut {
+        0%, 100% { opacity: 0; transform: translateY(10px); }
+        10%, 90% { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<script>
+    const messages = [
+        "4***A Purchased recently",
+        "J***s Purchased recently",
+        "M***a Purchased recently",
+        "P***o Purchased recently"
+    ];
+    let index = 0;
+    
+    setInterval(() => {
+        index = (index + 1) % messages.length;
+        document.getElementById('proof-text').innerText = messages[index];
+    }, 5000);
+</script>
+
+<section class="content-section" style="padding: 40px 20px; text-align: center;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+        <!-- Item 1 -->
+        <div style="text-align: center;">
+            <div style="position: relative;">
+                <img src="in-comfort.jpg" alt="Inefficient" style="width: 100%; border-radius: 12px; display: block;">
+                <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); background: white; border-radius: 50%; padding: 2px;">
+                    <div style="background: #d93025; color: white; width: 20px; height: 20px; border-radius: 50%; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">!</div>
+                </div>
+            </div>
+            <p style="margin-top: 15px; font-weight: 600; font-size: 0.9em; line-height: 1.2;">Stop Burning Money on Inefficient Comfort.</p>
+        </div>
+
+        <!-- Item 2 -->
+        <div style="text-align: center;">
+            <div style="position: relative;">
+                <img src="clutter.jpg" alt="Clutter" style="width: 100%; border-radius: 12px; display: block;">
+                <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); background: white; border-radius: 50%; padding: 2px;">
+                    <div style="background: #d93025; color: white; width: 20px; height: 20px; border-radius: 50%; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">!</div>
+                </div>
+            </div>
+            <p style="margin-top: 15px; font-weight: 600; font-size: 0.9em; line-height: 1.2;">Elevate Your Space, Don't Clutter It</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div style="text-align: center;">
+            <div style="position: relative;">
+                <img src="waiting.jpg" alt="Waiting" style="width: 100%; border-radius: 12px; display: block;">
+                <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); background: white; border-radius: 50%; padding: 2px;">
+                    <div style="background: #d93025; color: white; width: 20px; height: 20px; border-radius: 50%; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">!</div>
+                </div>
+            </div>
+            <p style="margin-top: 15px; font-weight: 600; font-size: 0.9em; line-height: 1.2;">Tired of Waiting for Your Home to Get Comfortable?</p>
+        </div>
+
+        <!-- Item 4 -->
+        <div style="text-align: center;">
+            <div style="position: relative;">
+                <img src="luxury.jpg" alt="Luxury" style="width: 100%; border-radius: 12px; display: block;">
+                <div style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); background: white; border-radius: 50%; padding: 2px;">
+                    <div style="background: #d93025; color: white; width: 20px; height: 20px; border-radius: 50%; font-size: 14px; font-weight: bold; display: flex; align-items: center; justify-content: center;">!</div>
+                </div>
+            </div>
+            <p style="margin-top: 15px; font-weight: 600; font-size: 0.9em; line-height: 1.2;">Silence Isn't a Luxury—It's a Need.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" style="padding: 40px 20px; text-align: center; background-color: #ffffff;">
+    <h2 class="headline" style="font-size: 1.6em; margin-bottom: 10px; line-height: 1.2; color: #000;">Sleek Design, Seamless Fit</h2>
+    <p style="margin-bottom: 25px; color: #333; font-size: 1.05em; line-height: 1.5; max-width: 600px; margin-left: auto; margin-right: auto;">Explore every angle — where minimalism meets everyday comfort.</p>
+    <div style="width: 100%; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+        <img src="sleek-design.jpg" alt="Sleek Design" style="width: 100%; display: block;">
+    </div>
+</section>
+
+<section id="features-carousel" class="content-section" style="padding: 40px 20px; overflow: hidden;">
+    <div class="carousel-container" style="position: relative; max-width: 500px; margin: auto; border: 1px solid #eee; border-radius: 20px; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+        <div class="slide active" style="display: block; text-align: center;">
+            <img src="1000483249.jpg" alt="Energy Efficient" style="width: 100%; border-radius: 15px;">
+            <h3 style="margin: 20px 0 10px;">Energy Efficient</h3>
+            <p style="color: #666; font-size: 0.95em;">Smart temperature control minimizes power consumption. Stay comfortable without shocking energy bills.</p>
+        </div>
+        <div class="slide" style="display: none; text-align: center;">
+            <img src="1000483250.jpg" alt="Modern Aesthetic" style="width: 100%; border-radius: 15px;">
+            <h3 style="margin: 20px 0 10px;">Modern Aesthetic</h3>
+            <p style="color: #666; font-size: 0.95em;">Sleek white finish with hidden LED display. Blends seamlessly into any room decor.</p>
+        </div>
+        <div class="slide" style="display: none; text-align: center;">
+            <img src="1000483251.jpg" alt="DIY Installation" style="width: 100%; border-radius: 15px;">
+            <h3 style="margin: 20px 0 10px;">DIY Installation</h3>
+            <p style="color: #666; font-size: 0.95em;">Wall-mounted design with included bracket & manual. No electrician, no hassle — set it up in under 1 hour.</p>
+        </div>
+        <div class="slide" style="display: none; text-align: center;">
+            <img src="1000483254.jpg" alt="Sleep Mode" style="width: 100%; border-radius: 15px;">
+            <h3 style="margin: 20px 0 10px;">Sleep Mode</h3>
+            <p style="color: #666; font-size: 0.95em;">Optimized low-noise airflow keeps you cool without disturbing your sleep. Ideal for bedrooms.</p>
+        </div>
+        <div class="slide" style="display: none; text-align: center;">
+            <img src="1000483255.jpg" alt="Heat & Cool" style="width: 100%; border-radius: 15px;">
+            <h3 style="margin: 20px 0 10px;">Heat & Cool</h3>
+            <p style="color: #666; font-size: 0.95em;">Switch between cooling and heating with one touch. Perfect for unpredictable weather all year round.</p>
+        </div>
+        <div class="carousel-dots" style="margin-top: 20px; display: flex; justify-content: center; gap: 8px;">
+            <span class="dot active" style="height: 10px; width: 10px; background-color: #004DDB; border-radius: 50%; cursor: pointer;"></span>
+            <span class="dot" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; cursor: pointer;"></span>
+            <span class="dot" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; cursor: pointer;"></span>
+            <span class="dot" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; cursor: pointer;"></span>
+            <span class="dot" style="height: 10px; width: 10px; background-color: #bbb; border-radius: 50%; cursor: pointer;"></span>
+        </div>
+    </div>
+</section>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('#features-carousel .slide');
+    const dots = document.querySelectorAll('#features-carousel .dot');
+
+    function showSlides() {
+        slides.forEach((slide, index) => {
+            slide.style.display = (index === slideIndex) ? "block" : "none";
+            dots[index].style.backgroundColor = (index === slideIndex) ? "#004DDB" : "#bbb";
+        });
+        slideIndex = (slideIndex + 1) % slides.length;
+    }
+    setInterval(showSlides, 2500);
+</script>
+
+<section class="content-section" style="padding: 40px 20px; text-align: center; background-color: #fff;">
+    <h2 class="headline" style="font-size: 1.6em; margin-bottom: 10px; line-height: 1.2;">Sleek Design, Seamless Fit</h2>
+    <p style="margin-bottom: 25px; color: #555; font-size: 1em; line-height: 1.5; max-width: 600px; margin-left: auto; margin-right: auto;">Explore every angle — where minimalism meets everyday comfort.</p>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 30px;">
+        <div style="text-align: center;">
+            <img src="wall-mounted.jpg" alt="Wall Mounted" style="width: 100%; border-radius: 12px; display: block;">
+            <div style="background: #004DDB; color: white; padding: 6px 10px; border-radius: 6px; font-weight: bold; font-size: 0.85em; margin-top: 8px; display: inline-block;">Wall Mounted</div>
+        </div>
+        <div style="text-align: center;">
+            <img src="desk.jpg" alt="Desk Placement" style="width: 100%; border-radius: 12px; display: block;">
+            <div style="background: #004DDB; color: white; padding: 6px 10px; border-radius: 6px; font-weight: bold; font-size: 0.85em; margin-top: 8px; display: inline-block;">Desk Placement</div>
+        </div>
+        <div style="text-align: center;">
+            <img src="floor.jpg" alt="Floor Standing" style="width: 100%; border-radius: 12px; display: block;">
+            <div style="background: #004DDB; color: white; padding: 6px 10px; border-radius: 6px; font-weight: bold; font-size: 0.85em; margin-top: 8px; display: inline-block;">Floor Standing</div>
+        </div>
+        <div style="text-align: center;">
+            <img src="bathroom.jpg" alt="Bathroom" style="width: 100%; border-radius: 12px; display: block;">
+            <div style="background: #004DDB; color: white; padding: 6px 10px; border-radius: 6px; font-weight: bold; font-size: 0.85em; margin-top: 8px; display: inline-block;">Bathroom</div>
+        </div>
+    </div>
+
+    <a href="https://morvelishop.wixsite.com/loja-azul/_paylink/AZ7d742_" onclick="if(window.fbq){fbq('track', 'InitiatedCheckout');}" style="background-color: #004DDB; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-size: 18px; font-weight: bold; display: inline-block; width: 100%; max-width: 300px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">BUY NOW ></a>
+</section>
+
+<section class="content-section" style="padding: 40px 20px; text-align: center; background: linear-gradient(180deg, #1a1a1a 0%, #332d20 100%); color: white; border-radius: 20px 20px 0 0; margin-top: 20px;">
+    <h2 style="font-size: 1.8em; margin-bottom: 20px;">Family Review Cards</h2>
+    <p style="font-weight: 600; margin-bottom: 20px; opacity: 0.9;">Featured Review</p>
+    <div style="padding: 0 10px;">
+        <p style="font-size: 1.1em; line-height: 1.6; font-style: italic; margin-bottom: 20px;">"Allnado totally changed our living room experience. The sleek design fits our decor perfectly, and it kept our family incredibly warm during the snowy days in London. The best part? Our electricity bill actually went down!"</p>
+        <p style="font-weight: bold; margin-bottom: 30px;">- Sarah T., Verified Buyer</p>
+    </div>
+    <div style="width: 100%; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
+        <img src="familia1.jpg" alt="Happy Family with Product" style="width: 100%; display: block;">
+    </div>
+</section>
+
+<section class="content-section" style="padding: 40px 20px; background-color: #ffffff; text-align: center;">
+    <h2 class="headline" style="font-size: 1.6em; margin-bottom: 10px; color: #1a1a1a;">All the Specs, At a Glance</h2>
+    <p style="margin-bottom: 30px; color: #555; font-size: 1em;">Every detail you need — transparent and straightforward.</p>
+    <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+        <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee;">
+            <span style="font-weight: 600; color: #333;">Name</span>
+            <span style="color: #666; text-align: right; max-width: 60%;">New wall-mounted mobile phone with low carbon mission sand energy saving.</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee;">
+            <span style="font-weight: 600; color: #333;">Rated power</span>
+            <span style="color: #666;">1500W</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee;">
+            <span style="font-weight: 600; color: #333;">Heat sink power</span>
+            <span style="color: #666;">30W</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee;">
+            <span style="font-weight: 600; color: #333;">Rated voltage</span>
+            <span style="color: #666;">220V</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee;">
+            <span style="font-weight: 600; color: #333;">Rated frequency</span>
+            <span style="color: #666;">50Hz</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 15px 0;">
+            <span style="font-weight: 600; color: #333;">Time</span>
+            <span style="color: #666;">0-6h</span>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" style="padding: 60px 20px; text-align: center; background-color: #f9f9f9;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <img src="1000483404.jpg" alt="Allnado AC Unit" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
+        <div style="margin-top: 30px;">
+            <h3 style="font-size: 1.4em; color: #333;">Designed for your comfort.</h3>
+            <p style="color: #666; margin-top: 10px;">The ultimate blend of performance and aesthetics.</p>
+        </div>
+    </div>
+</section>
+
+<section id="promo-section" class="content-section" style="padding: 40px 20px; background-color: #f9f9f9; text-align: center;">
+    <h2 style="font-size: 1.5em; margin-bottom: 10px;">Limited-Time: Buy More, Save More</h2>
+    <p style="color: #004DDB; font-weight: bold; margin-bottom: 25px;">🔥 Don't Wait Until It's Too Hot.</p>
+
+    <div id="product-purchase-section" style="padding: 25px; border-radius: 25px; background: #fff; max-width: 500px; margin: 0 auto; border: 1px solid #eee; font-family: sans-serif; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+        <div style="border: 2px solid #f0f0f0; border-radius: 20px; padding: 5px; margin-bottom: 20px; background: #004DDB;">
+            <img src="1000483404.jpg" alt="Wall-Mounted Air Conditioner" style="width: 100%; border-radius: 15px; display: block;">
+        </div>
+
+        <div id="countdown" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
+            <div class="time-block"><span id="hours" style="display: block; font-size: 1.2em; font-weight: bold; background: #333; color: white; padding: 8px 12px; border-radius: 8px;">12</span><span style="font-size: 0.7em;">Hrs</span></div>
+            <div class="time-block"><span id="mins" style="display: block; font-size: 1.2em; font-weight: bold; background: #333; color: white; padding: 8px 12px; border-radius: 8px;">06</span><span style="font-size: 0.7em;">Mins</span></div>
+            <div class="time-block"><span id="secs" style="display: block; font-size: 1.2em; font-weight: bold; background: #333; color: white; padding: 8px 12px; border-radius: 8px;">00</span><span style="font-size: 0.7em;">Secs</span></div>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <p style="margin-bottom: 8px; font-size: 0.9em; font-weight: bold; color: #333;">Currency</p>
+            <div style="display: flex; gap: 10px;">
+                <button onclick="setCurrency('EUR', 1, '€', this)" class="cur-btn" style="padding: 10px 20px; border-radius: 8px; border: 2px solid #004DDB; background: #004DDB; color: white; font-weight: bold; cursor: pointer; flex: 1;">EU</button>
+                <button onclick="setCurrency('USD', 1.08, '$', this)" class="cur-btn" style="padding: 10px 20px; border-radius: 8px; border: 2px solid #ccc; background: white; font-weight: bold; cursor: pointer; flex: 1;">US</button>
+                <button onclick="setCurrency('GBP', 0.85, '£', this)" class="cur-btn" style="padding: 10px 20px; border-radius: 8px; border: 2px solid #ccc; background: white; font-weight: bold; cursor: pointer; flex: 1;">UK</button>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom: 5px; font-size: 1.2em;">Wall-Mounted Air Conditioner</h3>
+        <div style="margin-bottom: 20px;">
+            <span id="display-price" style="font-size: 2.2em; font-weight: 800; color: #d00;">€89.90</span>
+            <span style="text-decoration: line-through; color: #999; font-size: 1.1em; margin-left: 10px;">€198.99</span>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border: 1px solid #ddd; padding: 10px 20px; border-radius: 12px;">
+            <span style="font-weight: bold;">Quantity</span>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <button onclick="updateQty(-1)" style="border: none; background: transparent; font-size: 1.5em; font-weight: bold; cursor: pointer; color: #000000;">-</button>
+                <span id="qty-val" style="font-size: 1.2em; font-weight: bold; min-width: 30px; text-align: center;">1</span>
+                <button onclick="updateQty(1)" style="border: none; background: transparent; font-size: 1.5em; font-weight: bold; cursor: pointer; color: #000000;">+</button>
+            </div>
+        </div>
+
+        <a href="https://morvelishop.wixsite.com/loja-azul/_paylink/AZ7d742_" onclick="if(window.fbq){fbq('track', 'InitiatedCheckout');}" style="text-decoration: none; display: block; width: 100%; padding: 18px; background: #004DDB; color: white; border-radius: 12px; font-weight: bold; font-size: 1.1em; text-align: center; box-sizing: border-box;">BUY NOW ></a>
+    </div>
+</section>
+
+<script>
+    let time = 12 * 3600 + 6 * 60;
+    setInterval(() => {
+        if(time > 0) time--;
+        document.getElementById('hours').innerText = Math.floor(time / 3600).toString().padStart(2, '0');
+        document.getElementById('mins').innerText = Math.floor((time % 3600) / 60).toString().padStart(2, '0');
+        document.getElementById('secs').innerText = (time % 60).toString().padStart(2, '0');
+    }, 1000);
+
+    let basePriceEUR = 89.99;
+    let currentQty = 1;
+    let currentRate = 1;
+    let currentSymbol = '€';
+
+    function updateQty(delta) {
+        currentQty = Math.max(1, currentQty + delta);
+        document.getElementById('qty-val').innerText = currentQty;
+        calculate();
+    }
+
+    function setCurrency(cur, rate, sym, btn) {
+        currentRate = rate;
+        currentSymbol = sym;
+        document.querySelectorAll('.cur-btn').forEach(b => {
+            b.style.borderColor = '#ccc'; b.style.background = 'white'; b.style.color = 'black';
+        });
+        btn.style.borderColor = '#004DDB'; btn.style.background = '#004DDB'; btn.style.color = 'white';
+        calculate();
+    }
+
+    function calculate() {
+        let total = (basePriceEUR * currentRate * currentQty).toFixed(2);
+        document.getElementById('display-price').innerText = currentSymbol + total;
+    }
+</script>
+
+<section class="content-section" style="padding: 20px; text-align: center; max-width: 500px; margin: 0 auto; font-family: sans-serif;">
+    <div style="margin-bottom: 20px; font-size: 0.9em; color: #555;">🚚 Spend free shipping!</div>
+    <div style="margin-bottom: 15px;">
+        <img src="banner_guarde.jpg" alt="Guaranteed SAFE Checkout" style="width: 100%; height: auto;">
+    </div>
+    <div style="background-color: #fffdf0; border: 1px solid #fff3cd; border-radius: 12px; padding: 15px; text-align: left;">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+            <div style="background: #fff3cd; padding: 6px; border-radius: 50%; color: #856404; font-size: 1.2em;">🛍️</div>
+            <strong style="color: #333;">Buyer Protection</strong>
+        </div>
+        <div style="font-size: 0.85em; color: #666; margin-left: 35px;">Full or partial refund if the item isn't as described.</div>
+    </div>
+</section>
+
+<section class="content-section" style="padding: 40px 20px; background-color: #ffffff; text-align: center; max-width: 500px; margin: 0 auto; font-family: sans-serif;">
+    <h2 style="font-size: 1.8em; color: #1a1a1a; margin-bottom: 10px;">Loved by Real Homes</h2>
+    <p style="color: #666; margin-bottom: 30px; line-height: 1.5;">Thousands of families are already enjoying year-round comfort.</p>
+
+    <div style="background: #f9f9f9; border-radius: 15px; padding: 20px; text-align: left; margin-bottom: 20px;">
+        <div style="color: #ffc107; margin-bottom: 10px;">★★★★★</div>
+        <p style="color: #333; font-style: italic; margin-bottom: 15px; line-height: 1.5;">"My daughter says this AC is perfect for her bedroom. Easy to fit, high-quality materials, and the design is unique and beautiful. Very happy with this purchase!"</p>
+        <div style="display: flex; align-items: center;">
+            <div style="width: 40px; height: 40px; background: #ddd; border-radius: 50%; margin-right: 12px; background-image: url('https://i.pravatar.cc/100?u=sarah'); background-size: cover;"></div>
+            <div>
+                <strong style="display: block; font-size: 0.9em;">Sarah M</strong>
+                <span style="color: #28a745; font-size: 0.8em; font-weight: bold;">✔ Verified Buyer</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #f9f9f9; border-radius: 15px; padding: 20px; text-align: left; margin-bottom: 20px;">
+        <div style="color: #ffc107; margin-bottom: 10px;">★★★★★</div>
+        <p style="color: #333; font-style: italic; margin-bottom: 15px; line-height: 1.5;">"Bought this for my dad's new room during a heatwave. He loves it. He only needs to use it on low to cool the room down. Sleep mode is a great feature."</p>
+        <div style="display: flex; align-items: center;">
+            <div style="width: 40px; height: 40px; margin-right: 12px; overflow: hidden; border-radius: 50%;">
+                <img src="imagejames.jpg" alt="James K" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div>
+                <strong style="display: block; font-size: 0.9em;">James K</strong>
+                <span style="color: #28a745; font-size: 0.8em; font-weight: bold;">✔ Verified Buyer</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #f9f9f9; border-radius: 15px; padding: 20px; text-align: left; margin-bottom: 20px;">
+        <div style="color: #ffc107; margin-bottom: 10px;">★★★★★</div>
+        <p style="color: #333; font-style: italic; margin-bottom: 15px; line-height: 1.5;">"Quickly fills the room with warm airflow in winter. Great value for the price — dual heating and cooling at this price point is unbeatable."</p>
+        <div style="display: flex; align-items: center;">
+            <div style="width: 40px; height: 40px; background: #bbb; border-radius: 50%; margin-right: 12px; background-image: url('https://i.pravatar.cc/100?u=emma'); background-size: cover;"></div>
+            <div>
+                <strong style="display: block; font-size: 0.9em;">Emma R</strong>
+                <span style="color: #28a745; font-size: 0.8em; font-weight: bold;">✔ Verified Buyer</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" style="padding: 40px 20px; background-color: #ffffff; text-align: center; max-width: 500px; margin: 0 auto; font-family: sans-serif;">
+    <h2 style="font-size: 1.8em; color: #1a1a1a; margin-bottom: 30px;">Guarantee Section</h2>
+    <div style="display: flex; align-items: flex-start; text-align: left; margin-bottom: 25px; padding: 15px; border: 1px solid #eee; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+        <div style="min-width: 60px; height: 60px; margin-right: 15px; display: flex; align-items: center; justify-content: center;">
+            <img src="selo_moneyback.jpg" alt="30-Day Money-Back" style="width: 60px; height: 60px;">
+        </div>
+        <div>
+            <strong style="display: block; margin-bottom: 5px;">30-Day Money-Back Guarantee</strong>
+            <p style="margin: 0; color: #666; font-size: 0.9em; line-height: 1.4;">If for any reason you're not completely satisfied, we offer a full refund within 30 days.</p>
+        </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; text-align: left; margin-bottom: 25px; padding: 15px; border: 1px solid #eee; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+        <div style="min-width: 60px; height: 60px; margin-right: 15px; display: flex; align-items: center; justify-content: center;">
+            <img src="selo_suporte.jpg" alt="24/7 Support" style="width: 60px; height: 60px;">
+        </div>
+        <div>
+            <strong style="display: block; margin-bottom: 5px;">24/7 Premium Customer Support</strong>
+            <p style="margin: 0; color: #666; font-size: 0.9em; line-height: 1.4;">Our dedicated, top-tier customer service team is available 24/7 to assist you.</p>
+        </div>
+    </div>
+    <div style="display: flex; align-items: flex-start; text-align: left; padding: 15px; border: 1px solid #eee; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+        <div style="min-width: 60px; height: 60px; margin-right: 15px; display: flex; align-items: center; justify-content: center;">
+            <img src="selo_users.jpg" alt="Developed with Real Users" style="width: 60px; height: 60px;">
+        </div>
+        <div>
+            <strong style="display: block; margin-bottom: 5px;">Developed with Real Users</strong>
+            <p style="margin: 0; color: #666; font-size: 0.9em; line-height: 1.4;">Real-world user experiences drive our development and testing, ensuring we deliver the ultimate solution.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content-section" style="padding: 60px 20px; background-color: #ffffff; text-align: center; max-width: 500px; margin: 0 auto; font-family: sans-serif;">
+    <h2 style="font-size: 1.8em; margin-bottom: 10px;">FAQ</h2>
+    <p style="color: #999; margin-bottom: 40px;">Everything you need to know before you buy.</p>
+
+    <div id="faq-container" style="text-align: left; margin-bottom: 50px;">
+        <div class="faq-item" style="border-bottom: 1px solid #eee;">
+            <div class="faq-question" onclick="toggleFaq(this)" style="padding: 15px 0; font-weight: bold; display: flex; justify-content: space-between; cursor: pointer;">
+                Is this air conditioner difficult to install? <span>v</span>
+            </div>
+            <div class="faq-answer" style="display: none; padding-bottom: 15px; color: #555; font-size: 0.95em; line-height: 1.5;">
+                Not at all! The unit comes with a mounting bracket, screws, and a step-by-step manual. Most customers complete installation in under 1 hour.
+            </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid #eee;">
+            <div class="faq-question" onclick="toggleFaq(this)" style="padding: 15px 0; font-weight: bold; display: flex; justify-content: space-between; cursor: pointer;">
+                How loud is it? <span>v</span>
+            </div>
+            <div class="faq-answer" style="display: none; padding-bottom: 15px; color: #555; font-size: 0.95em; line-height: 1.5;">
+                On low/ sleep mode, the noise level is comparable to a quiet library. On high, it’s similar to a standard fan. We recommend sleep mode for bedroom use.
+            </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid #eee;">
+            <div class="faq-question" onclick="toggleFaq(this)" style="padding: 15px 0; font-weight: bold; display: flex; justify-content: space-between; cursor: pointer;">
+                Does it work in winter? <span>v</span>
+            </div>
+            <div class="faq-answer" style="display: none; padding-bottom: 15px; color: #555; font-size: 0.95em; line-height: 1.5;">
+                Yes! Allnado features both cooling and heating modes, making it a true year-round solution.
+            </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid #eee;">
+            <div class="faq-question" onclick="toggleFaq(this)" style="padding: 15px 0; font-weight: bold; display: flex; justify-content: space-between; cursor: pointer;">
+                What room size is it suitable for? <span>v</span>
+            </div>
+            <div class="faq-answer" style="display: none; padding-bottom: 15px; color: #555; font-size: 0.95em; line-height: 1.5;">
+                Ideal for rooms between 15–25 m² — perfect for bedrooms, home offices, and small living rooms.
+            </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid #eee;">
+            <div class="faq-question" onclick="toggleFaq(this)" style="padding: 15px 0; font-weight: bold; display: flex; justify-content: space-between; cursor: pointer;">
+                What plug type does it use? <span>v</span>
+            </div>
+            <div class="faq-answer" style="display: none; padding-bottom: 15px; color: #555; font-size: 0.95em; line-height: 1.5;">
+                UK-standard 3-pin plug. No adapter needed for UK homes.
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: left;">
+        <h3 style="margin-bottom: 10px;">BE THE FIRST TO KNOW!</h3>
+        <p style="color: #666; font-size: 0.9em; margin-bottom: 20px;">Sign up to receive insider information on exclusive offers and new arrivals.</p>
+        <form style="display: flex; gap: 5px;">
+            <input type="email" placeholder="Endereço de correio eletrónico" style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 4px;">
+            <button type="submit" style="padding: 12px 20px; background-color: #a52a2a; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">Subscrever</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    function toggleFaq(element) {
+        const answer = element.nextElementSibling;
+        if (answer.style.display === "none" || answer.style.display === "") {
+            answer.style.display = "block";
+            element.querySelector('span').innerText = '∧';
+        } else {
+            answer.style.display = "none";
+            element.querySelector('span').innerText = 'v';
+        }
+    }
+</script>
+
+<section class="content-section" style="padding: 60px 20px; background-color: #ffffff; text-align: center; max-width: 500px; margin: 0 auto; font-family: sans-serif;">
+    <p style="color: #333; line-height: 1.6; margin-bottom: 30px; font-size: 0.95em;">We carefully choose simple, useful products that make everyday life easier, more organized, and more enjoyable.</p>
+
+    <div style="border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 15px 0; margin-bottom: 30px;">
+        <a href="#" style="text-decoration: none; color: #000; font-weight: bold; display: flex; justify-content: space-between; align-items: center;">INSTRUCTION <span>&gt;</span></a>
+    </div>
+
+    <div style="text-align: center;">
+        <h3 style="margin-bottom: 15px; font-size: 1.1em;">GET IN TOUCH</h3>
+        <p style="margin-bottom: 15px; color: #555; font-size: 0.9em;">Contact us via <a href="mailto:support@Morveli.com" style="color: #004DDB;">support@Morveli.com</a></p>
+        <p style="margin-bottom: 15px; color: #555; font-size: 0.9em;">We will reply you within 1-3 business days.</p>
+        <p style="margin-bottom: 5px; color: #555; font-size: 0.9em;">Mon-Fri, 9am-6pm PST.</p>
+        <p style="color: #555; font-size: 0.9em;">Closed on American Holidays.</p>
+    </div>
+</section>
+
+</body>
+</html>
